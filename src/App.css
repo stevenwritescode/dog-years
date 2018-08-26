@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background:#CCC;
 }
 
 h1, h2, h3, p {text-align:center;}
@@ -9,15 +10,17 @@ h1, h2, h3, p {text-align:center;}
 .humanAgeText {
   text-align:center;
 }
+
 .humanAge {
   text-align:center;
   margin:8px;
 }
+
 .blueyText {text-align:left;}
 
 .dogInfo {
   text-align:left;
-  margin:10px;
+  margin:25px 25px -25px 25px;
   font-size:10pt;
 }
 
@@ -30,7 +33,7 @@ h1, h2, h3, p {text-align:center;}
 .container {
   background:#eee;
   border:1px solid black;
-  width:50%;
-  margin:25% auto;
-  padding:15px;
+  width:500px;
+  margin:100px auto;
+  padding:50px;
 }
