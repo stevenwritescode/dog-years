@@ -24,7 +24,7 @@ constructor(props) {
           <label htmlFor="age" className="humanAgeText">Age In Human Years:</label> <br /> 
           <input name="age" className="humanAge" type="number" placeholder="Enter Human Years" min="0" value={ humanAge } onChange={ this.handleChange } />
         </p>
-        { this.props.dogAge != undefined &&  <h3 className="dogAgeText"> Age In Dog Years: 
+        { this.props.dogAge &&  <h3 className="dogAgeText"> Age In Dog Years: 
       <strong className="dogAge"> { dogAge } </strong>
     </h3> 
    }
